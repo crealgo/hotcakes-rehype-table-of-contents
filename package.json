@@ -1,32 +1,20 @@
 {
+	"name": "@hotcakes/rehype-table-of-contents",
+	"type": "module",
+	"version": "0.0.0-semantically-released",
 	"author": "Crealgo, LLC <hello.crealgo@gmail.com> (https://crealgo.com)",
 	"description": "MDX plugin that (1) generates a table of contents based on headings tags found in the content, (2) converts the headings into links and (3) appends it to the mdx frontmatter",
-	"devDependencies": {
-		"@types/estree": "^1.0.5",
-		"@types/hast": "^3.0.4",
-		"@types/mdast": "^4.0.4",
-		"@types/unist": "^3.0.2",
-		"hast": "^1.0.0"
-	},
-	"exports": {
-		".": "./lib/index.js",
-		"./*": {
-			"default": "./src/*.ts",
-			"import": "./lib/*.js",
-			"types": "./lib/*.d.ts"
-		},
-		"./utils/*": {
-			"default": "./src/utils/*.ts",
-			"import": "./lib/utils/*.js",
-			"types": "./lib/utils/*.d.ts"
-		}
-	},
+	"exports": "./dist/index.js",
 	"files": [
-		"lib/**"
+		"dist/**"
 	],
-	"homepage": "https://manasc.com",
+	"scripts": {
+		"build": "npx tsc --noEmit false",
+		"prepublishOnly": "npm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"homepage": "https://crealgo.com",
 	"license": "MIT",
-	"name": "@hotcakes/rehype-table-of-contents",
 	"keywords": [
 		"table",
 		"of",
@@ -38,20 +26,19 @@
 		"anchors"
 	],
 	"peerDependencies": {
+		"react": "18.x",
+		"react-dom": "18.x",
 		"remark-frontmatter": "5.x",
 		"remark-mdx-frontmatter": "5.x"
 	},
+	"devDependencies": {
+		"@types/estree": "^1.0.5",
+		"@types/hast": "^3.0.4",
+		"@types/mdast": "^4.0.4",
+		"@types/unist": "^3.0.2",
+		"hast": "^1.0.0"
+	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"release": {
-		"extends": "@hotcakes/release-config"
-	},
-	"scripts": {
-		"build": "npx tsc --noEmit false",
-		"prepublishOnly": "npm run build",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"type": "module",
-	"version": "0.0.0-semantically-released"
+	}
 }
