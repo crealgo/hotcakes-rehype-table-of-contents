@@ -26,8 +26,6 @@
 		"anchors"
 	],
 	"peerDependencies": {
-		"react": "18.x",
-		"react-dom": "18.x",
 		"remark-frontmatter": "5.x",
 		"remark-mdx-frontmatter": "5.x"
 	},
@@ -53,5 +51,9 @@
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"dependencies": {
+		"change-case": "^5.4.4",
+		"mdast-util-mdxjs-esm": "^2.0.1"
 	}
 }
