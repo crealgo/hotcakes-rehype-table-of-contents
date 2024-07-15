@@ -32,11 +32,14 @@
 		"remark-mdx-frontmatter": "5.x"
 	},
 	"devDependencies": {
+		"@hotcakes/release-config": "^1.2.0",
+		"@hotcakes/tsconfig": "^1.2.0",
 		"@types/estree": "^1.0.5",
 		"@types/hast": "^3.0.4",
 		"@types/mdast": "^4.0.4",
 		"@types/unist": "^3.0.2",
-		"hast": "^1.0.0"
+		"hast": "^1.0.0",
+		"typescript": "^5.5.3"
 	},
 	"publishConfig": {
 		"access": "public"
