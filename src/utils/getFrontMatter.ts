@@ -1,10 +1,19 @@
-import type {VariableDeclaration, ObjectExpression} from 'estree';
 import type {Root} from 'hast';
-import type {MdxjsEsmHast} from 'mdast-util-mdxjs-esm';
+import type * as _ from 'mdast-util-mdxjs-esm';
 
 export const getFrontMatter = (ast: Root) => {
-	const statement = ast.children.at(0)! as MdxjsEsmHast;
-	const declaration = statement.data!.estree!.body.at(0) as VariableDeclaration;
+	const statement = ast.children.find(statement => statement.type === 'mdxjsEsm');
+	const exportDeclaration = statement!.data!.estree!.body.find(declaration => declaration.type === 'ExportNamedDeclaration');
 
-	return declaration.declarations.at(0)!.init as ObjectExpression;
+	if (exportDeclaration?.declaration?.type !== 'VariableDeclaration') {
+		throw new Error('Something went wrong.');
+	}
+
+	const frontmatter = exportDeclaration.declaration.declarations.find(d => d.type === 'VariableDeclarator');
+
+	if (frontmatter?.type !== 'VariableDeclarator' || frontmatter.init?.type !== 'ObjectExpression') {
+		throw new Error('Frontmatter does not exist in this ast');
+	}
+
+	return frontmatter.init;
 };

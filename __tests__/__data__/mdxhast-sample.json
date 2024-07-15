@@ -1,0 +1,951 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "mdxjsEsm",
+      "value": "",
+      "data": {
+        "estree": {
+          "type": "Program",
+          "sourceType": "module",
+          "body": [
+            {
+              "type": "ExportNamedDeclaration",
+              "specifiers": [],
+              "declaration": {
+                "type": "VariableDeclaration",
+                "kind": "const",
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "id": {
+                      "type": "Identifier",
+                      "name": "frontmatter"
+                    },
+                    "init": {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "kind": "init",
+                          "key": {
+                            "type": "Literal",
+                            "value": "title"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "HMLR Group, Inc."
+                          }
+                        },
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "kind": "init",
+                          "key": {
+                            "type": "Literal",
+                            "value": "id"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "106fe3f9-e064-47d4-9f04-802a26089921"
+                          }
+                        },
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "kind": "init",
+                          "key": {
+                            "type": "Literal",
+                            "value": "categories"
+                          },
+                          "value": {
+                            "type": "ArrayExpression",
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "value": "Branding"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "kind": "init",
+                          "key": {
+                            "type": "Literal",
+                            "value": "tags"
+                          },
+                          "value": {
+                            "type": "ArrayExpression",
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "value": "Small Business"
+                              },
+                              {
+                                "type": "Literal",
+                                "value": "Graphic Design"
+                              },
+                              {
+                                "type": "Literal",
+                                "value": "Logo Design"
+                              },
+                              {
+                                "type": "Literal",
+                                "value": "Print Media"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "kind": "init",
+                          "key": {
+                            "type": "Literal",
+                            "value": "published"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "01/09/2021"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h2",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Summary",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 4,
+              "offset": 187
+            },
+            "end": {
+              "line": 9,
+              "column": 11,
+              "offset": 194
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 9,
+          "column": 1,
+          "offset": 184
+        },
+        "end": {
+          "line": 9,
+          "column": 11,
+          "offset": 194
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h3",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Future-proof branding to match the company's intended image",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 5,
+              "offset": 200
+            },
+            "end": {
+              "line": 11,
+              "column": 64,
+              "offset": 259
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 11,
+          "column": 1,
+          "offset": 196
+        },
+        "end": {
+          "line": 11,
+          "column": 64,
+          "offset": 259
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "HMLR was founded as a company to manage smaller NPO's and educational companies. For a designer, this translates as their actual name, brand or logo would only appear on their website, business cards, and letterheads as it is more of \"management\" company to bring all the founders' companies under one name.",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 1,
+              "offset": 261
+            },
+            "end": {
+              "line": 13,
+              "column": 308,
+              "offset": 568
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 13,
+          "column": 1,
+          "offset": 261
+        },
+        "end": {
+          "line": 13,
+          "column": 308,
+          "offset": 568
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "When the brand mark ",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 570
+            },
+            "end": {
+              "line": 15,
+              "column": 21,
+              "offset": 590
+            }
+          }
+        },
+        {
+          "type": "element",
+          "tagName": "em",
+          "properties": {},
+          "children": [
+            {
+              "type": "text",
+              "value": "does",
+              "position": {
+                "start": {
+                  "line": 15,
+                  "column": 22,
+                  "offset": 591
+                },
+                "end": {
+                  "line": 15,
+                  "column": 26,
+                  "offset": 595
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 21,
+              "offset": 590
+            },
+            "end": {
+              "line": 15,
+              "column": 27,
+              "offset": 596
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " appear, however, it is displayed across multiple industries that sometimes have little to do with each other in terms of marketing and audience, e.g. education, I.T. and charity. Thus emerges the main problem: The brandmark needs to embody HMLR Group's virtues across varying industries. The solution to this problem is a logotype, rather than a logo for legibility reasons. For example, when somebody encounters the mark, they should be able to immediately read it rather than having to associate a pictograph to its relative company.",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 27,
+              "offset": 596
+            },
+            "end": {
+              "line": 15,
+              "column": 563,
+              "offset": 1132
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 15,
+          "column": 1,
+          "offset": 570
+        },
+        "end": {
+          "line": 15,
+          "column": 563,
+          "offset": 1132
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Since HMLR is an American company with its contacts being either well-versed or fluent in English, the solution to this company's problem is a logotype (or wordmark) rather than a logo for legibility reasons. For example, when somebody encounters the mark, they would be able to immediately read it rather than having to associate a pictorial or abstract mark to its respective company.",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 1,
+              "offset": 1134
+            },
+            "end": {
+              "line": 17,
+              "column": 387,
+              "offset": 1520
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 17,
+          "column": 1,
+          "offset": 1134
+        },
+        "end": {
+          "line": 17,
+          "column": 387,
+          "offset": 1520
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h2",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Final Renders",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "offset": 1525
+            },
+            "end": {
+              "line": 19,
+              "column": 17,
+              "offset": 1538
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 19,
+          "column": 1,
+          "offset": 1522
+        },
+        "end": {
+          "line": 19,
+          "column": 17,
+          "offset": 1538
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "mdxJsxFlowElement",
+      "name": "pre",
+      "attributes": [
+        {
+          "type": "mdxJsxAttribute",
+          "name": "gallery",
+          "value": null,
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 6,
+              "offset": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 13,
+              "offset": 12
+            }
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "code",
+          "properties": {
+            "className": [
+              "language-yaml"
+            ]
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "images:\n  - src: /images/2017/01/business-card-mockup.jpg\n  - src: /images/2017/01/business-card-mockup2.jpg\n  - src: /images/2017/01/04.jpg\n  - src: /images/2017/01/Asset-4_2k.png\n  - src: /images/2017/01/Asset-5_2k-1.png\n  - src: /images/2017/01/Asset-6_2k-1.png\n"
+            }
+          ],
+          "data": {
+            "meta": "gallery"
+          },
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 1,
+              "offset": 1540
+            },
+            "end": {
+              "line": 29,
+              "column": 4,
+              "offset": 1824
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 21,
+          "column": 1,
+          "offset": 1540
+        },
+        "end": {
+          "line": 29,
+          "column": 4,
+          "offset": 1824
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h2",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Color Palette",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 4,
+              "offset": 1829
+            },
+            "end": {
+              "line": 31,
+              "column": 17,
+              "offset": 1842
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 31,
+          "column": 1,
+          "offset": 1826
+        },
+        "end": {
+          "line": 31,
+          "column": 17,
+          "offset": 1842
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "The color scheme developed to a monochromatic relationship between a natural dark navy blue and a light cool gray. The company operates solely in the United States, where blue is a respected color across the country's industries and these monochromatic shades of slate blue portray the perfect balance of a neutral, balanced, and respected business.",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 1,
+              "offset": 1844
+            },
+            "end": {
+              "line": 33,
+              "column": 350,
+              "offset": 2193
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 33,
+          "column": 1,
+          "offset": 1844
+        },
+        "end": {
+          "line": 33,
+          "column": 350,
+          "offset": 2193
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "mdxJsxFlowElement",
+      "name": "pre",
+      "attributes": [
+        {
+          "type": "mdxJsxAttribute",
+          "name": "palette",
+          "value": null,
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 6,
+              "offset": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 13,
+              "offset": 12
+            }
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "code",
+          "properties": {
+            "className": [
+              "language-yaml"
+            ]
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "colors:\n  - name: Ship Gray\n    hex: '#433C4C'\n  - name: Black Squeeze\n    hex: '#EBF3F8'\n"
+            }
+          ],
+          "data": {
+            "meta": "palette"
+          },
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 1,
+              "offset": 2195
+            },
+            "end": {
+              "line": 41,
+              "column": 4,
+              "offset": 2304
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 35,
+          "column": 1,
+          "offset": 2195
+        },
+        "end": {
+          "line": 41,
+          "column": 4,
+          "offset": 2304
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h2",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Typography",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 4,
+              "offset": 2309
+            },
+            "end": {
+              "line": 43,
+              "column": 14,
+              "offset": 2319
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 43,
+          "column": 1,
+          "offset": 2306
+        },
+        "end": {
+          "line": 43,
+          "column": 14,
+          "offset": 2319
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "The operating radius of this company is only in the States, opening up our choices (in terms of legibility) to both serif and sans-serif. Since one of the values of the company is the history of the founders, a classic serif font like Lora does the job perfectly.",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 1,
+              "offset": 2321
+            },
+            "end": {
+              "line": 45,
+              "column": 264,
+              "offset": 2584
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 45,
+          "column": 1,
+          "offset": 2321
+        },
+        "end": {
+          "line": 45,
+          "column": 264,
+          "offset": 2584
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "mdxJsxFlowElement",
+      "name": "pre",
+      "attributes": [
+        {
+          "type": "mdxJsxAttribute",
+          "name": "font",
+          "value": null,
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 6,
+              "offset": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 10,
+              "offset": 9
+            }
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "code",
+          "properties": {
+            "className": [
+              "language-yaml"
+            ]
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "font:\n  url: https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap\n"
+            }
+          ],
+          "data": {
+            "meta": "font"
+          },
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 1,
+              "offset": 2586
+            },
+            "end": {
+              "line": 50,
+              "column": 4,
+              "offset": 2706
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 47,
+          "column": 1,
+          "offset": 2586
+        },
+        "end": {
+          "line": 50,
+          "column": 4,
+          "offset": 2706
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "h2",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "Past Iterations",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 4,
+              "offset": 2711
+            },
+            "end": {
+              "line": 52,
+              "column": 19,
+              "offset": 2726
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 52,
+          "column": 1,
+          "offset": 2708
+        },
+        "end": {
+          "line": 52,
+          "column": 19,
+          "offset": 2726
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "element",
+      "tagName": "p",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "These older iterations were based on a pastel color palette often seen in Indian home interiors — India being the founders' motherland. However, this palette and brand mark would not reflect the company's intended identity in the area they operate. Green and pink would not be associated with a solid, respected company image.",
+          "position": {
+            "start": {
+              "line": 54,
+              "column": 1,
+              "offset": 2728
+            },
+            "end": {
+              "line": 54,
+              "column": 327,
+              "offset": 3054
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 54,
+          "column": 1,
+          "offset": 2728
+        },
+        "end": {
+          "line": 54,
+          "column": 327,
+          "offset": 3054
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": "\n"
+    },
+    {
+      "type": "mdxJsxFlowElement",
+      "name": "pre",
+      "attributes": [
+        {
+          "type": "mdxJsxAttribute",
+          "name": "gallery",
+          "value": null,
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 6,
+              "offset": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 13,
+              "offset": 12
+            }
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": "element",
+          "tagName": "code",
+          "properties": {
+            "className": [
+              "language-yaml"
+            ]
+          },
+          "children": [
+            {
+              "type": "text",
+              "value": "images:\n  - src: /images/2017/01/Asset-4_2k.png\n  - src: /images/2017/01/Asset-5_2k-1.png\n  - src: /images/2017/01/Asset-6_2k-1.png\n"
+            }
+          ],
+          "data": {
+            "meta": "gallery"
+          },
+          "position": {
+            "start": {
+              "line": 56,
+              "column": 1,
+              "offset": 3056
+            },
+            "end": {
+              "line": 61,
+              "column": 4,
+              "offset": 3207
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 56,
+          "column": 1,
+          "offset": 3056
+        },
+        "end": {
+          "line": 61,
+          "column": 4,
+          "offset": 3207
+        }
+      }
+    }
+  ],
+  "position": {
+    "start": {
+      "line": 1,
+      "column": 1,
+      "offset": 0
+    },
+    "end": {
+      "line": 62,
+      "column": 1,
+      "offset": 3208
+    }
+  }
+}

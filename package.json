@@ -10,8 +10,8 @@
 	],
 	"scripts": {
 		"build": "tsc --noEmit false --rootDir src --outDir dist",
-		"prepublishOnly": "npm run build",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "vitest __tests__/unit",
+		"prepublishOnly": "npm run test && npm run build"
 	},
 	"homepage": "https://crealgo.com",
 	"license": "MIT",
@@ -47,7 +47,8 @@
 		"eslint-plugin-react": "^7.34.4",
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"hast": "^1.0.0",
-		"typescript": "^5.5.3"
+		"typescript": "^5.5.3",
+		"vitest": "^2.0.2"
 	},
 	"publishConfig": {
 		"access": "public"
