@@ -1,4 +1,4 @@
 {
 	"extends": "@hotcakes/tsconfig",
-	"include": ["src/**/*.ts"]
+	"include": ["src"]
 }

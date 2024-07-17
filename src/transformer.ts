@@ -1,8 +1,8 @@
 import {kebabCase} from 'change-case';
 import type * as hast from 'hast';
-import {AnchorElement, ArrayExpression, ObjectExpression} from './utils/builders';
-import {getFrontMatter} from './utils/getFrontMatter';
-import {getHeadings} from './utils/getHeadings';
+import {AnchorElement, ArrayExpression, ObjectExpression} from './utils/builders.js';
+import {getFrontMatter} from './utils/getFrontMatter.js';
+import {getHeadings} from './utils/getHeadings.js';
 
 export default function transformer(ast: hast.Root) {
 	const frontmatter = getFrontMatter(ast);
@@ -39,4 +39,3 @@ export default function transformer(ast: hast.Root) {
 		value: tableOfContents,
 	});
 }
-
