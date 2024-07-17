@@ -118,7 +118,7 @@ exports[`the rehype plugin, given an ast with headings > should return an ast wi
                           "computed": false,
                           "key": {
                             "name": "tableOfContents",
-                            "type": "PrivateIdentifier",
+                            "type": "Identifier",
                           },
                           "kind": "init",
                           "method": false,

@@ -29,7 +29,7 @@ export default function transformer(ast: hast.Root) {
 	frontmatter.properties.push({
 		type: 'Property',
 		key: {
-			type: 'PrivateIdentifier',
+			type: 'Identifier',
 			name: 'tableOfContents',
 		},
 		kind: 'init',
